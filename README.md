@@ -14,3 +14,7 @@ Alguns recursos para você começar se este for seu primeiro projeto Flutter:
 Para obter ajuda sobre como iniciar o Flutter, consulte nosso
 [online documentation](https://flutter.dev/docs), que oferece tutoriais,
 amostras, orientações sobre desenvolvimento móvel e uma referência completa da API.
+
+## Publicar app Flutter
+
+[Tutorial](https://flutter.dev/docs/deployment/android),

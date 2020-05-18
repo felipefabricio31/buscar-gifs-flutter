@@ -10,11 +10,15 @@ class GifPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(_gifData["title"]),
+        title: Text(
+          _gifData["title"],
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.black,
         actions: <Widget>[
           IconButton(
-            icon: Icon(Icons.search),
+            color: Colors.white,
+            icon: Icon(Icons.share),
             onPressed: () {
               Share.share(_gifData["images"]["fixed_height"]["url"]);
             },
